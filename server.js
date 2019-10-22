@@ -1,7 +1,7 @@
 // Declare our dependencies
 var express = require('express');
 var request = require('superagent');
-var backendHost = process.env.BACK_HOST || 'if-lb-training-5621dfd50c7b2cab.elb.us-east-2.amazonaws.com';
+var backendHost = 'if-lb-training-5621dfd50c7b2cab.elb.us-east-2.amazonaws.com';
 // Create our express app
 var app = express();
 
